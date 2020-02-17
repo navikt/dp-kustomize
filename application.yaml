@@ -1,4 +1,7 @@
 images:
 - kind: Application
   path: spec/image
-        
+
+commonLabels:
+- path: metadata/labels
+  create: true
